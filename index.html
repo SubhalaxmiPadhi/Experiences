@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Experiences</title>
+    <link rel="stylesheet" href="C:\Users\PC\Desktop\Web Dev\My Site\styles.css">
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <div class="navlinks">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+<div class="info">
+  <div class="overlay">
+
+  </div>
+  <div id="circle">
+    <div class="feature one">
+        <img src="C:\Users\PC\Desktop\Web Dev\My Site\scuba andaman.jfif" alt="">
+        <div >
+          <h1>Scuba Diving, Andaman</h1>
+<p>Location - Havelock island</p>
+        </div>
+    </div>
+    <div class="feature two">
+        <img src="C:\Users\PC\Desktop\Web Dev\My Site\skiinggulmarg.jfif" alt="">
+        <div >
+          <h1>Skiing, Gulmarg</h1>
+          <p>Location - Jammu and Kashmir</p>
+        </div>
+    </div>
+    <div class="feature three">
+        <img src="C:\Users\PC\Desktop\Web Dev\My Site\skymysore.jfif" alt="">
+        <div >
+          <h1>Sky Diving, Mysore</h1>
+          <p>Location - Mysore, Karnataka</p>
+        </div>
+    </div>
+    <div class="feature four">
+        <img src="C:\Users\PC\Desktop\Web Dev\My Site\surfgoa.jfif" alt="">
+        <div >
+          <h1>Surfing, Goa</h1>
+          <p>Location - North and South Goa</p>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="Description">
+  <h3 id="button">^</h3>
+<h2>Features</h2>
+</div>
+    </div>
+<script>
+  var circle = document.getElementById("circle");
+  var button= document.getElementById("button");
+  var rotateValue = circle.style.transform;
+  var rotateSum;
+  button.onclick= function()
+  {
+    rotateSum = rotateValue + "rotate(-90deg)";
+    circle.style.transform = rotateSum;
+    rotateValue = rotateSum;
+  }
+</script>
+<script src="C:\Users\PC\Desktop\Web Dev\My Site\index.js" charset="utf-8"></script>
+  </body>
+</html>
